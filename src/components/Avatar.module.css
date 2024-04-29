@@ -1,7 +1,7 @@
 .avatar {
     /* box-sizing: initial; */
-    width: calc(3rem + 12px);
-    height: calc(3rem + 12px);
+    width: calc(3rem);
+    height: calc(3rem);
     border-radius: 8px;
 }
 
