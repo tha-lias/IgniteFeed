@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import './global.css';
 import styles from './App.module.css';
 import { Sidebar } from './components/Sidebar';
+import React from 'react';
 
 
 // author: {avatar_url: "", name: "", role: ""}
