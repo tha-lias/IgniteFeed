@@ -8,7 +8,7 @@ interface CommentProps {
   onDeleteComment: (comment: string) => void;
 }
 
-export function Comment({ content, onDeleteComment }) {
+export function Comment({ content, onDeleteComment }: CommentProps) {
     const [likeCount, setLikeCount] = useState(0)
 
     function handleDeleteComment() {
@@ -24,7 +24,7 @@ export function Comment({ content, onDeleteComment }) {
 
     return (
       <div className={styles.comment}>
-        <Avatar hasBorder={false} src="https://github.com/tha-lias.png" />
+        <Avatar hasBorder={false} src="https://github.com/tha-lias.png" alt="" />
 
         <div className={styles.commentBox}>
           <div className={styles.commentContent}>
